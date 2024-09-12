@@ -9,6 +9,7 @@
 
 body{
     color: #fff;
+    background: #000000;
 }
 .header{
     position: fixed;
@@ -46,8 +47,9 @@ body{
 
 .navbar a:hover, 
 .navbar a.active{
-    
+    opacity: 1;
     color: darkslateblue;
+    transform: translate(-50%, -50%) scaled(1);
 }
 
 .clas{
@@ -55,6 +57,13 @@ body{
     background: url(SOURCE/deep-dive-into-coding-realms-ky.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    transition: .3s ease;
+}
+
+.clas.active{
+    filter: blur(15px);
+
+
 }
 
 .home{
