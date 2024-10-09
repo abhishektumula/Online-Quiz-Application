@@ -1,0 +1,91 @@
+1.
+what is full form of HTML?
+B. Hyper Text Markup Language
+options
+"A. Hyperlink Text Marking Language",
+"B. Hyper Text Markup Language",
+"C. Hyper text marking up language",
+"D. Hyperlink Markup language"
+
+2.
+What is the primary programming language used in Data Science?
+B. Python
+Options:
+"A. Java",
+"B. Python",
+"C. C++",
+"D. Ruby"
+
+3. 
+What does the acronym 'SQL' stand for?
+A. Structured Query Language
+Options:
+"A. Structured Query Language",
+"B. System Query Language",
+"C. Structured Quick Language",
+"D. Syntax Query Language"
+
+4. 
+In which phase of the data science process is data cleaning typically done?
+C. Data Preprocessing
+Options:
+"A. Data Collection",
+"B. Data Visualization",
+"C. Data Preprocessing",
+"D. Model Deployment"
+
+5. What is the main purpose of a data visualization tool like Tableau?
+D. Create visual representations of data
+Options:
+"A. Store data",
+"B. Clean data",
+"C. Analyze text",
+"D. Create visual representations of data"
+
+6. What is a 'Random Forest' in Data Science?
+C. An ensemble of decision trees
+Options:
+"A. A type of neural network",
+"B. A clustering algorithm",
+"C. An ensemble of decision trees",
+"D. A type of data visualization"
+
+7. Which of the following is a commonly used library in Python for data manipulation?
+A. Pandas
+Options:
+"A. Pandas",
+"B. TensorFlow",
+"C. PyTorch",
+"D. Seaborn"
+
+8. What is a key characteristic of supervised learning?
+B. It uses labeled data
+Options:
+A. It uses unlabeled data
+B. It uses labeled data
+C. It doesn't use data
+D. It doesn't require any input
+
+9. Which of the following is a type of classification algorithm?
+D. Support Vector Machine
+Options:
+A. K-means Clustering
+B. Principal Component Analysis
+C. Linear Regression
+D. Support Vector Machine
+
+10. What is overfitting in the context of machine learning?
+A. When a model learns the noise in the data
+Options:
+A. When a model learns the noise in the data
+B. When a model fits data perfectly
+C. When a model underperforms
+D. When a model fits only part of the data
+
+11. Which tool is commonly used for big data processing?
+B. Apache Hadoop
+Options:
+A. MySQL
+B. Apache Hadoop
+C. PostgreSQL
+D. Tableau
