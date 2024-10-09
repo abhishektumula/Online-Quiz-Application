@@ -66,6 +66,12 @@ body{
 
 }
 
+.container{
+    display: flex;
+    height: 100vh;
+    width: 200%;
+}
+
 .home{
     height: 100vh;
     width: 100%;
@@ -188,4 +194,11 @@ body{
 .btn-group .info-btn:nth-child(2):hover{
     background: #105100;
     color: #fff;
+}
+
+.quiz-section{
+    width: 100%;
+    background: seagreen;
+    
+
 }
