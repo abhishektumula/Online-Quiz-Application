@@ -220,6 +220,8 @@ body {
   opacity: 0;
   pointer-events: none;
   transform: scale(0.9);
+  transition: 0.3s ease;
+  transition-delay: 0s;
 }
 
 .quiz-section .quiz-box.active {
@@ -278,6 +280,22 @@ body {
   border-color: #586001;
 }
 
+.option-list .option.correct {
+  background: #000000;
+  color: #00a63d;
+  border-color: #00a63d;
+}
+
+.option-list .option.incorrect {
+  background: #000000;
+  color: #a60045;
+  border-color: #a60045;
+}
+
+.option-list .option.disabled {
+  pointer-events: none;
+}
+
 .quiz-box .quiz-footer {
   display: flex;
   justify-content: space-between;
@@ -298,11 +316,108 @@ body {
   border: 2px solid;
   border-radius: 30px;
   font-weight: 500;
-  cursor: pointer;
+  cursor: wait;
   transition: 0.5s;
+  pointer-events: none;
 }
-.quiz-footer .next-btn:hover {
+.quiz-footer .next-btn.active:hover {
   background: #004e1e;
 }
 
-/* stopped at 39:47 */
+.quiz-footer .next-btn.active {
+  pointer-events: auto;
+  background-color: #187700;
+  cursor: pointer;
+}
+
+.quiz-section .result-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  width: 500px;
+  background: transparent;
+  border: 2px solid #252145;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3 ease;
+}
+.quiz-section .result-box.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.result-box h2 {
+  font-size: 54px;
+}
+.result-box .precentage-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.precentage-container .circular-progress {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: conic-gradient(#00a63d 3.6deg, rgba(255, 255, 255, 0.1) 0deg);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.precentage-container .circular-progress::before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background: rgb(11, 0, 46);
+  border-radius: 50%;
+}
+
+.circular-progress .progress-value {
+  position: relative;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.precentage-container .score-text {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.result-box .buttons {
+  display: flex;
+}
+
+.buttons button {
+  width: 130px;
+  height: 49px;
+  background: #018e41;
+  border: 2px solid;
+  border-radius: 20px;
+  font-weight: 600;
+  margin: 0 20px 20px;
+  cursor: pointer;
+}
+.buttons button:nth-child(1):hover {
+  background: #01898e;
+  color: #000000;
+}
+.buttons button:nth-child(2) {
+  background: transparent;
+  color: #00a63d;
+}
+.buttons button:nth-child(2):hover {
+  background: #680202;
+  color: #000000;
+}
