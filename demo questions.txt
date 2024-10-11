@@ -69,10 +69,10 @@ D. It doesn't require any input
 9. Which of the following is a type of classification algorithm?
 D. Support Vector Machine
 Options:
-A. K-means Clustering
-B. Principal Component Analysis
-C. Linear Regression
-D. Support Vector Machine
+"A. K-means Clustering",
+"B. Principal Component Analysis",
+"C. Linear Regression",
+"D. Support Vector Machine"
 
 10. What is overfitting in the context of machine learning?
 A. When a model learns the noise in the data
@@ -85,7 +85,7 @@ D. When a model fits only part of the data
 11. Which tool is commonly used for big data processing?
 B. Apache Hadoop
 Options:
-A. MySQL
-B. Apache Hadoop
-C. PostgreSQL
-D. Tableau
+"A. MySQL",
+"B. Apache Hadoop",
+"C. PostgreSQL",
+"D. Tableau"
