@@ -421,3 +421,12 @@ body {
   background: #680202;
   color: #000000;
 }
+.badge {
+  background-color: #ffd700;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}

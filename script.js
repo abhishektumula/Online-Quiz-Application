@@ -155,4 +155,8 @@ function showresultbox() {
       clearInterval(progress);
     }
   }, speed);
+  // Show the badge if the score is 10/10
+  if (userscore === 10) {
+    document.getElementById("perfect-score-badge").style.display = "block";
+  }
 }
